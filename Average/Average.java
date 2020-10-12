@@ -1,13 +1,16 @@
 public class Average
 {
-public static void main(String[] args) 
-{   
- 
-       int[] numbers = new int[]{20, 30, 25, 35, -16, 60, -100};
-       int sum = 0;
-       for(int i=0; i < numbers.length ; i++)
-        sum = sum + numbers[i];
-        double average = sum / numbers.length;
-        System.out.println("Average value of the array elements is : " + average); 
+   public static void main(String args[])
+   {
+      int i,count;
+      int a[] = {1,2,3,4,5,6};
+      int n = 6;
+      count = 0;
+
+      for(i=0; i<n; i++) 
+      {
+         count = count +a[i]; 
+      }
+      System.out.println("Average is:"+ count/n);
    }
 }
